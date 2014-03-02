@@ -1,0 +1,10 @@
+markdown: redcarpet
+pygments: true
+
+name: Projects
+description: All JS programming learning projects
+author:
+  name: Mike Carretta
+  email: mikecarretta@gmail.com
+
+  url: /projects

@@ -1,0 +1,33 @@
+---
+layout: default
+title: Projects
+---
+<section>
+  <div class="container">
+
+    <ul class="projects">
+    {% for project in site.data.projects %}
+      <li>
+        <a href="{{site.url}}/{{project.slug}}">
+          <h3>{{project.name}}</h3>
+          <p>{{project.description}}</p>
+
+        {% if project.tags %}
+          <p class="small">
+            {% for tag in project.tags %}
+              {{tag.lang}}
+              {% if forloop.last %}
+              &nbsp;
+              {% else %}
+              ,&nbsp;
+              {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+
+  </div>
+</section>
