@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Words Project
+title: Words (Very much in progress)
 ---
 {% include header-default.html %}
 <!-- add custom project CSS -->
+<link rel="stylesheet" href="{{site.url}}/word/app.css">
 
   </head>
 <body>
@@ -13,10 +14,22 @@ title: Words Project
 <section>
   <div class="container">
       <h1>{{page.title}}</h1>
+      <form role="form">
+        <textarea name="textarea" rows="5" id="word-box" placeholder="Write something here">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus arcu, auctor a congue sit amet, consequat et quam. Nulla neque massa, egestas quis erat et, rhoncus vestibulum massa. Praesent non dui placerat, aliquam magna in, adipiscing orci. Quisque aliquet nisi id elementum pharetra.</textarea>
+      </form>
+
+      <p>Characters: <span id="count"></span></p>
+
+      <p>
+        <input type="button" class="btn sort" id="sort-btn" value="Sort" />
+        <input type="button" class="btn array" id="array-btn" value="Create Array" />
+        <input type="button" class="btn clear" id="clear-btn" value="Clear" />
+        <!-- <input type="button" class="btn reset" id="reset-btn" value="Reset" /> -->
+      </p>
   </div>
 </section>
 
 {% include footer.html %}
 
 <!-- add custom project JS -->
-<script src="app.js"> </script>
+<script src="{{site.url}}/word/app.js"> </script>
