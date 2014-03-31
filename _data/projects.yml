@@ -1,17 +1,17 @@
-- name: Words and Characters
-  slug: word
-  date: "Feb 26, 2014"
-  description: lorem ispum doloar sit amet yo
-  tags:
-    - lang: javascript
-    - lang: css
-    - lang: html
-- name: Weather and Surf
+- name: Local Weather
   slug: weather
   date: "Feb 28, 2014"
-  description: lorem ispum doloar sit amet yo
+  description: "Still in-progress. Using the wunderweather.com API to pull in local weather; use the text field to search for a zipcode."
   tags:
     - lang: javascript
     - lang: jquery
+    - lang: css
+    - lang: html
+- name: Words and Characters
+  slug: word
+  date: "Feb 26, 2014"
+  description: "In-progress. Experimenting using a text area and JavaScript to sort, slice and convert text to an array."
+  tags:
+    - lang: javascript
     - lang: css
     - lang: html

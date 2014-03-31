@@ -1,0 +1,65 @@
+#zipcode {
+  width: 50%;
+  padding: 0.4em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #555;
+}
+.btn {
+  margin: 0;
+  padding: 0.4em;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+.loader {
+  padding-top: 3em;
+  text-align: center;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400);
+.forecast {
+  display: block;
+  height: 350px;
+  margin: 3em 0;
+  font-family: 'Lato', sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+  sup {
+    top: -2em;
+    font-size: 27%;
+    color: #555;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+.message {
+  margin: 20px 0;
+  padding: 14px 24px;
+  background-color: #dbdeea;
+  border: 1px solid #a1aac8;
+  border-radius: 4px;
+}
+
+.date {
+  display: block;
+  width: 100%;
+  font-size: .8em;
+  color: #555;
+}
+.hiTemp {
+  display: block;
+  width: 100%;
+  font-size: 5em;
+}
+.lowTemp {
+  display: block;
+  width: 100%;
+  font-size: 3em;
+}
+.icon {
+  display: block;
+  width: 100%;
+}
