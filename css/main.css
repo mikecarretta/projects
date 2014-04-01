@@ -85,7 +85,7 @@ a:hover {
   width: 33.33%;
 }
 .col-1-2 {
-  width: 50%;
+  width: 47%;
 }
 .col-1-4 {
   width: 25%;
@@ -115,7 +115,6 @@ a:hover {
 .grid-pad > [class*='col-']:last-of-type {
   padding-right: 20px;
 }
-
 .container {
   margin: 0 auto;
   max-width: 39.1em;
